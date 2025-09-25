@@ -1,0 +1,104 @@
+body {
+    width: 50pix;
+    height: 50pix;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    background-color: #111;
+    color: #eee;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+
+.centertext {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+#Disclaimer {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin: 10px;
+}
+#AboutMe {
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+    margin: 10px;
+}
+#Bio {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: grey solid 3px;
+    margin-top: 10px;
+    background-color: #121111e6;
+    font-size: 1.75em;
+    font-weight: normal;
+    text-align: center;
+}
+#selfdrawingHeader {
+    width: 500px;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    border: 4px solid rgb(125, 52, 151);
+    border-bottom: #111;
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
+#selfdrawing {
+    width: 500px;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    border: 4px solid rgb(125, 52, 151);
+    border-bottom: #111;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    background-image: url("imgfolder/wallpaper.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hyperlink {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+}
+body {
+    width: auto;
+    height: 90%;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+@media screen and (max-width: 992px) {
+    body {
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+        background-image: url("imgfolder/wallpaper.jpg");
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        width: auto;
+        height: auto;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+        background-color: #111;
+    }
+}
